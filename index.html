@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="CSS/MemoryGame.css">
+	<link rel="shortcut icon" href="Media/shield and swords.ico" type="image/x-icon">
+	<title>Dare Yourself | Memory Games</title>
+</head>
+
+<body>
+	<div class="content">
+		<div id="window">
+			<div id="cong">
+				<img src="https://media.giphy.com/media/tCQv89VrByDIs/giphy.gif" id="cong_img" onerror="this.src='Media/30212.jpg'"  /> <br />
+				<p id="stat">
+					Your Rating: <span id="stars">
+<img  class="star " />
+<img  class="star " />
+<img  class="star " />
+</span><br /> You've consumed <span id="clicks2"> </span> Clicks. In <span id="minutes2"> </span> Minute(s) &nbsp; & &nbsp;<span id="seconds2"> </span> Second(s).
+				</p>
+				<button class="reload"> I'll Dare You Again</button>
+			</div>
+		</div>
+		<ul>
+			<li id="stplay">Start</li>
+			<li class="reload">Reset</li>
+			<li>
+				<select name="difficulty" id="difficulty">
+<option value="Easy" id="Easy" name="Easy">Easy</option>
+<option value="Medium" id="Medium" name="Medium">Medium</option>
+<option value="Hard" id="Hard" name="Hard">Hard</option>
+</select>
+			</li>
+		</ul>
+		<div class="Timer">
+			Timer: &nbsp; &nbsp;
+			<span id="minutes"> </span> M &nbsp;
+			<span id="seconds"> </span> S
+		</div>
+		<div class="wrapper">
+			<div class="contets hid e m h"></div>
+			<div class="contets hid e m h"></div>
+			<div class="contets hid e m h"></div>
+			<div class="contets hid e m h"></div>
+			<div class="contets hid e m h"></div>
+			<div class="contets hid e m h"></div>
+			<div class="contets hid e m h"></div>
+			<div class="contets hid e m h"></div>
+			<div class="contets hid e m h"></div>
+			<div class="contets hid e m h"></div>
+			<div class="contets hid m h"></div>
+			<div class="contets hid m h"></div>
+			<div class="contets hid m h"></div>
+			<div class="contets hid m h"></div>
+			<div class="contets hid m h"></div>
+			<div class="contets hid m h"></div>
+			<div class="contets hid m h"></div>
+			<div class="contets hid m h"></div>
+			<div class="contets hid h"></div>
+			<div class="contets hid h"></div>
+			<div class="contets hid h"></div>
+			<div class="contets hid h"></div>
+			<div class="contets hid h"></div>
+			<div class="contets hid h"></div>
+		</div>
+		<div id="info">
+			<img src="Media/arrow-right.png" id="arrow" class="lolo" /> Total Number of clicks =
+			<span id="clicks"> </span> . &nbsp; &nbsp; <span class="fixMe">
+<img src="Media/arrow-right.png" id="arrow" class="lolo" /> Buzzel completion =
+<span id="completion"> </span> % .</span>
+		</div>
+	</div>
+	<footer>
+		Made With <span id="red"> &#9829 </span> By: &nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><span id="mm"> Mahmoud Abd El-khalk </span></a>
+	</footer>
+	<script src="JS/MemoryGame.js"></script>
+</body>
+
+</html>
